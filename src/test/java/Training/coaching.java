@@ -16,6 +16,7 @@ public class coaching extends Baseclass {
 
 	@Test(groups = { "coaching" })
 	public void coaching_create() throws IOException {
+		//function use to create coaching
 		login_page log = PageFactory.initElements(driver, login_page.class);
 		coaching_page coach=PageFactory.initElements(driver, coaching_page.class);
 
